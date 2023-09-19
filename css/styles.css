@@ -5,6 +5,7 @@
     --slate: #434455;
     --navy-blue: #2E2F42;
     --blue: #404bbf;
+    --header-b:#E7E9FC;
 }
 
 
@@ -18,6 +19,15 @@ body {
 
 
 /* Header */
+.page-header{
+    border-bottom: 1px solid var(--header-b);
+    display: flex;
+}
+.header-flex{
+    display: flex;
+}
+
+
 .logo {
     color: var(--iris);
     font-family: 'Raleway', sans-serif;
@@ -101,6 +111,9 @@ body {
 /* Section */
 .section {
     background: var(--navy-blue);
+}
+img{
+    display:block
 }
 
 .main-title {
