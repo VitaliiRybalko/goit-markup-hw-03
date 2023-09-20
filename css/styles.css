@@ -15,6 +15,9 @@ body {
     background-color: var(--white);
 
 }
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container{
     display: flex;
 }
@@ -25,10 +28,15 @@ body {
 }
 .header-list{
     display: flex;
+    gap: 40px;
 
 }
 .site-address{
     display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 
@@ -38,7 +46,11 @@ body {
     display: flex;
     
 }
+.header-list-item{
+    padding-top:24px;
+    padding-bottom: 24px;
 
+}
 
 .logo {
     color: var(--iris);
@@ -50,6 +62,8 @@ body {
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
+
 }
 
 .logo-span {
