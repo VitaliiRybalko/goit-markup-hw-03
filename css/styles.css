@@ -5,7 +5,6 @@
     --slate: #434455;
     --navy-blue: #2E2F42;
     --blue: #404bbf;
-    --header-b:#E7E9FC;
 }
 
 
@@ -16,15 +15,28 @@ body {
     background-color: var(--white);
 
 }
+.header-container{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-list{
+    display: flex;
+
+}
+.site-address{
+    display: flex;
+}
 
 
 /* Header */
-.page-header{
-    border-bottom: 1px solid var(--header-b);
+
+.header-nav{
     display: flex;
-}
-.header-flex{
-    display: flex;
+    
 }
 
 
@@ -109,11 +121,17 @@ body {
 }
 
 /* Section */
-.section {
+.section-hero {
     background: var(--navy-blue);
+   padding-top: 188px;
+   padding-bottom: 292px;
+   padding-left: 472px;
+   padding-right: 472px;
+
+
 }
 img{
-    display:block
+    display: block;
 }
 
 .main-title {
