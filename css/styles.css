@@ -155,6 +155,7 @@ img {
 
 .main-title {
     color: var(--white);
+    min-width: 496px;
 
 
     /* Header 1 */
@@ -181,6 +182,13 @@ img {
     letter-spacing: 0.04em;
     background-color: var(--iris);
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--iris);
+    border-radius: 4px;
+
 }
 
 .button:hover,
