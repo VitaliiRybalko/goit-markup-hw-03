@@ -144,10 +144,8 @@ body {
 .section-hero {
     background: var(--navy-blue);
     padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    padding-right: 472px;
-
+    padding-bottom: 188px;
+    
 
 }
 
