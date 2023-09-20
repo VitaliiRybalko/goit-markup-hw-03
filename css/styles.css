@@ -140,8 +140,7 @@ body {
     background: var(--navy-blue);
    padding-top: 188px;
    padding-bottom: 188px;
-   padding-left: 472px;
-   padding-right: 472px;
+   
 
 
 }
@@ -151,6 +150,8 @@ img{
 
 .main-title {
     color: var(--white);
+    max-width: 496px;
+    
 
 
     /* Header 1 */
@@ -173,10 +174,16 @@ img{
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
+   
     letter-spacing: 0.04em;
     background-color: var(--iris);
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:var(--iris) ;
+    border-radius: 4px;
 }
 
 .button:hover,
