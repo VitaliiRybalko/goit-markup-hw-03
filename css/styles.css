@@ -215,9 +215,12 @@ img {
 }
 .section-two-list-item{
     flex-basis: calc((100% - 72px) / 4);
-    display: flex;
-    
-}
+    }
+    .section-two-list{
+        display: flex;
+        gap: 24px;
+    }
+
 
 
 
