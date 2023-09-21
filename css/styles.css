@@ -15,6 +15,10 @@ body {
     background-color: var(--white);
 
 }
+h1,h2,h3,p{
+    margin: 0;
+    
+}
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -111,6 +115,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link {
@@ -210,8 +216,7 @@ img {
 
 .section-two{
     padding: 120px 0;
-    display: flex;
-    gap: 24px;
+   
 }
 .section-two-list-item{
     width: calc((100% - 72px) / 4);
