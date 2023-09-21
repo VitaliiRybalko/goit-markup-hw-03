@@ -155,7 +155,7 @@ img {
 
 .main-title {
     color: var(--white);
-    min-width: 496px;
+    max-width: 496px;
 
 
     /* Header 1 */
@@ -178,7 +178,6 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.04em;
     background-color: var(--iris);
     cursor: pointer;
@@ -186,7 +185,6 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: var(--iris);
     border-radius: 4px;
 
 }
@@ -197,6 +195,22 @@ img {
 }
 
 /* Section 2 */
+        .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.section-two{
+    padding: 120px 0;
+}
 .benefits {
     color: var(--navy-blue);
 
