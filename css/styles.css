@@ -1,7 +1,7 @@
 :root {
     --white: #FFFFFF;
     --cloud: #F4F4FD;
-    --iris: #4D5AE5;
+    --iris: #4d5ae5;
     --slate: #434455;
     --navy-blue: #2E2F42;
     --blue: #404bbf;
@@ -169,7 +169,7 @@ img {
     letter-spacing: 0.02em
 }
 
-.button {
+.button-index {
     color: var(--white);
 
     /* Button Text */
@@ -210,7 +210,17 @@ img {
 
 .section-two{
     padding: 120px 0;
+    display: flex;
+    gap: 24px;
 }
+.section-two-list-item{
+    flex-basis: calc((100% - 72px) / 4);
+    display: flex;
+    
+}
+
+
+
 .benefits {
     color: var(--navy-blue);
 
@@ -222,7 +232,9 @@ img {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
-    background-color: var(--white)
+    background-color: var(--white);
+    margin-bottom: 8px;
+
 }
 
 .benefits-p {
