@@ -293,11 +293,17 @@ img {
 /* Section 4 */
 .section-four {
     background-color: var(--cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .benefits {
     background-color: var(--white);
    
+}
+.name-position{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .section-four-list{
     display: flex;
