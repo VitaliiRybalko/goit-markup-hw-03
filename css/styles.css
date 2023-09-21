@@ -17,7 +17,7 @@ body {
 }
 h1,h2,h3,p{
     margin: 0;
-    
+
 }
 
 .page-header {
@@ -259,6 +259,14 @@ img {
 }
 
 /* Section 3 */
+
+.section-three-list{
+    display: flex;
+    gap: 24px;
+}
+
+
+
 .section-three-h-two {
     color: var(--navy-blue);
 
@@ -273,6 +281,7 @@ img {
     /* 111.111% */
     letter-spacing: 0.02;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 /* Section 4 */
