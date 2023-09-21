@@ -267,6 +267,9 @@ img {
     display: flex;
     gap: 24px;
 }
+.section-three-list-item{
+    width: calc((100% - 48px) / 3);
+}
 
 
 
@@ -294,7 +297,13 @@ img {
 
 .benefits {
     background-color: var(--white);
+   
 }
+.section-four-list{
+    display: flex;
+    gap: 24px;
+}
+
 
 .our-team {
     color: var(--navy-blue);
@@ -310,6 +319,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .section-four-h-three {
@@ -324,6 +334,7 @@ img {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .benefits-p {
@@ -338,6 +349,7 @@ img {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* footer */
