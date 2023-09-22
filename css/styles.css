@@ -26,6 +26,7 @@ p {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .header-container {
@@ -42,6 +43,7 @@ p {
 .header-list {
     display: flex;
     gap: 40px;
+    padding: 0;
 
 }
 
@@ -443,6 +445,20 @@ body {
 
     font-family: Roboto, sans-serif;
 }
+.site-filter{
+    display: flex;
+    gap: 24px;
+    margin-left: 451px;
+}
+.header-container-p{
+    display: flex;
+    
+}
+.page-header-p{
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+        background: var(--WHITE, #FFF);
+        margin-bottom: 96px;
+}
 
 ul {
     list-style: none;
@@ -475,7 +491,8 @@ a {
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
+    
 }
 
 .list {
@@ -537,13 +554,20 @@ a {
    
 
 }
+.address-link-p{
+    padding-top: 24px;
+        padding-bottom: 24px;
+        display: inline-block;
+
+}
+
 
 .address:hover,
 .address:focus {
     color: var(--navy-blue);
 }
 
-.button {
+.button-portfolio {
     color: var(--iris);
     text-align: center;
     /* Button Text */
@@ -556,12 +580,17 @@ a {
     letter-spacing: 0.04em;
     background-color: var(--cloud);
     cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    padding: 12px 24px;
+
+
 }
 
-.button:hover,
-.button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
     color: var(--white);
-    background-color: var(--navy-blue)
+    background-color: var(--blue)
 }
 
 h2 {
