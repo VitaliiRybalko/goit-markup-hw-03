@@ -617,7 +617,8 @@ a {
 .button-portfolio:hover,
 .button-portfolio:focus {
     color: var(--white);
-    background-color: var(--blue)
+    background-color: var(--blue);
+    border: 1px solid transparent;
 }
 
 h2 {
