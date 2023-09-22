@@ -480,7 +480,7 @@ a {
 
 }
 
-.nav {
+.header-list {
     color: var(--navy-blue);
 
     /* Body Medium */
@@ -505,6 +505,7 @@ a {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+   
 
 }
 
