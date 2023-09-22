@@ -92,6 +92,16 @@ p {
 }
 .logo-footer{
     margin-bottom: 16px;
+    display: inline-block;
+    color: var(--iris);
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .logo-span {
@@ -432,6 +442,7 @@ img {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 
@@ -448,16 +459,32 @@ body {
 .site-filter{
     display: flex;
     gap: 24px;
-    margin-left: 451px;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 .header-container-p{
     display: flex;
     
 }
+.card-list{
+    display: flex;
+   row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+
+}
+.card-item{
+    width: calc((100% - 48px) / 3);
+}
+.card-cont{
+    padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
+}
 .page-header-p{
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--WHITE, #FFF);
-        margin-bottom: 96px;
+        
+       
 }
 
 ul {
@@ -662,7 +689,12 @@ footer p {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
+}
+.portfolio-main-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .cardtype {
